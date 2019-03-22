@@ -149,46 +149,102 @@ a {
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
-    /* background: black; */
     margin: 20px 2.5%;
     color: white;
+
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: teal;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.box:nth-of-type(1) {
-    background: teal;
-}
-
-.box:nth-of-type(2) {
+.box2 {
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
     background: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.box:nth-of-type(3) {
+.box3 {
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
     background: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.box:nth-of-type(4) {
+.box4 {
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
     background: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.box:nth-of-type(5) {
+.box5 {
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
     background: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.box:nth-of-type(6) {
+.box6 {
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
     background: forestgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.box:nth-of-type(7) {
+.box7 {
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
     background: darkorchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.box:nth-of-type(8) {
+.box8 {
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
     background: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.box:nth-of-type(9) {
+.box9 {
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
     background: indigo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.box:nth-of-type(10) {
+.box10 {
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
     background: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .body-content-container {
