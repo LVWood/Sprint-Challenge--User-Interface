@@ -96,12 +96,15 @@ a {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    /* border: 1px solid red;  */
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    /* border: 1px solid red;  */
+    margin-top: 20px;
 }
 
 .middle-content {
@@ -123,12 +126,45 @@ a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box:nth-of-type(1) {
+    background: teal;
+}
+
+.box:nth-of-type(2) {
+    background: yellow;
+}
+
+.box:nth-of-type(3) {
+    background: rgb(115, 133, 172);
+}
+.box:nth-of-type(4) {
+    background: coral;
+}
+.box:nth-of-type(5) {
+    background: rgb(231, 103, 141);
+}
+.box:nth-of-type(6) {
+    background: green;
+}
+.box:nth-of-type(7) {
+    background: rgb(130, 94, 151);
+}
+.box:nth-of-type(8) {
+    background: violet;
+}
+.box:nth-of-type(9) {
+    background: indigo;
+}
+.box:nth-of-type(10) {
+    background: turquoise;
 }
 
 .bottom-content {
