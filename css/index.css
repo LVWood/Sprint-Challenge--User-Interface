@@ -253,3 +253,13 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* stretch items below */
+
+.top-content-products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 0 auto;
+    padding: 20px 0;
+}
