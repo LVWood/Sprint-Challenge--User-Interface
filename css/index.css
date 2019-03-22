@@ -94,7 +94,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 20px ;
     border-bottom: 1px dashed black;
     /* border: 1px solid red;  */
 }
@@ -105,6 +105,21 @@ a {
     padding-bottom: 20px; 
     /* border: 1px solid red;  */
     margin-top: 20px;
+}
+
+.about-page-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    /* border: 1px solid red;  */
+}
+
+.about-page-header .text-container {
+    padding-bottom: 20px; 
+    /* border: 1px solid red;  */
+    margin: 20px 10px;
 }
 
 .middle-content {
@@ -139,32 +154,67 @@ a {
 }
 
 .box:nth-of-type(2) {
-    background: yellow;
+    background: gold;
 }
 
 .box:nth-of-type(3) {
-    background: rgb(115, 133, 172);
+    background: cadetblue;
 }
 .box:nth-of-type(4) {
     background: coral;
 }
 .box:nth-of-type(5) {
-    background: rgb(231, 103, 141);
+    background: crimson;
 }
 .box:nth-of-type(6) {
-    background: green;
+    background: forestgreen;
 }
 .box:nth-of-type(7) {
-    background: rgb(130, 94, 151);
+    background: darkorchid;
 }
 .box:nth-of-type(8) {
-    background: violet;
+    background: hotpink;
 }
 .box:nth-of-type(9) {
     background: indigo;
 }
 .box:nth-of-type(10) {
-    background: turquoise;
+    background: dodgerblue;
+}
+
+.body-content-container {
+    display: flex;
+    justify-items: space-between;
+    margin: 20px 0;
+}
+
+.about-box {
+    width: 49%;
+    margin: 10px;
+    /* border: 1px solid red; */
+
+}
+.about-box-text h2, p, button {
+    padding: 5px 0;
+    /* margin: 20px 0; */
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: white;
+    margin: 10px 0;
+}
+
+.about-box-img {
+    margin-bottom: 20px;
+}
+
+.about-box-text {
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .bottom-content {
