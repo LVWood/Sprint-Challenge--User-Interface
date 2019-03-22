@@ -130,6 +130,7 @@ a {
     margin-top: 40px;
 }
 
+
 .middle-content {
     margin: 20px 0;
     border-bottom: 1px dashed black;
@@ -191,16 +192,21 @@ a {
 }
 
 .body-content-container {
+    /* border: 1px solid blue */
+}
+
+.about-row {
     display: flex;
     justify-items: space-between;
-    margin: 20px 0;
+    align-content: space-between;
+    flex-wrap: wrap;
 }
 
 .about-box {
-    width: 49%;
-    margin: 10px;
+    width: 46%;
+    margin: 15px;
+    margin-bottom: 0;
     /* border: 1px solid red; */
-
 }
 .about-box-text h2, p, button {
     padding: 5px 0;
@@ -209,13 +215,19 @@ a {
 
 button {
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 7px;
     border: 1px solid black;
-    background: white;
+    cursor: pointer;
     margin: 10px 0;
+    background-color: white;
 }
 
-.about-box-img {
+button:hover {
+    background-color: lightgray;
+}
+
+.about-box img {
+    width: 366px;
     margin-bottom: 20px;
 }
 
